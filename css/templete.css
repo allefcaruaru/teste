@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+
+
+  html, body {
+      background-color: #e5edff;
+      height: 100%;
+      margin: 0px 15px;
+  }
+  
+  h2{
+    font-family: 'ubuntu', sans-serif;
+    color:  rgb(5, 5, 119);
+    font-size: 36px;
+    
+
+  }
+  p{
+    font-family: 'roboto', sans-serif;
+    color:  rgb(5, 5, 119);
+    font-size: 18px;
+    
+  }  
+  #container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+ }
+
+ #conteudo{
+ flex: 1;
+}
+
+#topo img{
+  margin-top: 80px;
+}
+
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  background-color:#29a361;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: 'roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+ }
+ .botao div {
+   padding: 10px;
+ }
+ 
+
+ #fundo a{
+ text-decoration: none;
+ }
+
+ .imagem{
+   background-color: yellowgreen;
+   border-radius: 10px 0px 0px 10px;
+ }
+ 
+ .texto {
+  width: 100%;
+} 
